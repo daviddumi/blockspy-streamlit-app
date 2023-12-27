@@ -3,7 +3,7 @@ from streamlit_option_menu import option_menu
 from data_engine import style_24h_change, get_token_data
 st.set_page_config(
     layout="wide",
-    page_icon="/Users/ouris/PycharmProjects/Blockspy/favicon.png"
+    page_icon="favicon.png"
 )
 
 selected = option_menu(
@@ -56,7 +56,7 @@ if selected == "Home":
             
             You can see here on the $domi chart, the timeframe that I based wallet purchases off of. 
         """)
-    image_path = '/Users/ouris/PycharmProjects/Blockspy/example_chart.png'
+    image_path = 'example_chart.png'
     st.image(image_path, width=400, caption='Domi Purchase Timeframe')
     st.markdown("""
             Once I had the list of wallets I then track all of their purchases and sells in the last day, and look at the tokens that were net purchased today by those wallets.
