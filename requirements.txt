@@ -1,0 +1,6 @@
+pandas==1.5.3
+psycopg2_binary==2.9.6
+pytz==2023.3
+SQLAlchemy==1.4.48
+streamlit==1.22.0
+streamlit_option_menu==0.3.6
